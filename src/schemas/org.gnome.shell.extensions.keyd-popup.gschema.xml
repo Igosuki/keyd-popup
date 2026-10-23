@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.keyd-popup" path="/org/gnome/shell/extensions/keyd-popup/">
+    <key name="config-path" type="s">
+      <default>'/etc/keyd/default.conf'</default>
+      <summary>keyd configuration file</summary>
+      <description>The file whose layers and comment labels are shown in the panel.</description>
+    </key>
+    <key name="ignored-layers" type="as">
+      <default>['main', 'ids', 'global', 'control', 'shift', 'alt', 'meta', 'altgr']</default>
+      <summary>Ignored layers</summary>
+      <description>Layers that never show the panel.</description>
+    </key>
+    <key name="max-rows" type="i">
+      <range min="1" max="30"/>
+      <default>8</default>
+      <summary>Rows per column</summary>
+      <description>Number of items per column before wrapping to a new column.</description>
+    </key>
+    <key name="bottom-margin" type="i">
+      <range min="0" max="2000"/>
+      <default>96</default>
+      <summary>Bottom margin</summary>
+      <description>Distance in pixels between the panel and the bottom of the primary monitor.</description>
+    </key>
+    <key name="hide-timeout" type="i">
+      <range min="1" max="60"/>
+      <default>6</default>
+      <summary>Hide timeout</summary>
+      <description>Seconds after which the panel hides even if no layer release event arrived.</description>
+    </key>
+  </schema>
+</schemalist>

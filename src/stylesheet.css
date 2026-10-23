@@ -1,0 +1,46 @@
+/* Panel: 75% opaque dark background */
+.leader-hint {
+    background-color: rgba(18, 18, 22, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 14px 18px 12px 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.leader-hint-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.leader-hint-grid {
+    spacing-rows: 4px;
+    spacing-columns: 22px;
+}
+
+.leader-hint-item {
+    spacing: 10px;
+}
+
+.leader-hint-key {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 11pt;
+    color: #8ab4f8;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    padding: 2px 8px;
+    min-width: 12px;
+}
+
+.leader-hint-desc {
+    color: #ececec;
+    font-size: 11pt;
+}
+
+/* Entries that open another layer (nested leaders) */
+.leader-hint-group {
+    color: #c58af9;
+    font-weight: bold;
+}

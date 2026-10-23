@@ -1,0 +1,8 @@
+{
+  "uuid": "keyd-popup@igosuki.github.io",
+  "name": "Keyd Leader Popup",
+  "description": "Shows a which-key style panel listing the bindings of the active keyd layer, labelled from the comments in your keyd config.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://github.com/Igosuki/keyd-popup",
+  "settings-schema": "org.gnome.shell.extensions.keyd-popup"
+}
